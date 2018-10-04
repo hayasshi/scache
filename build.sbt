@@ -4,7 +4,7 @@ import com.typesafe.sbt.MultiJvmPlugin.MultiJvmKeys.MultiJvm
 
 lazy val coreSetting = Seq(
   organization := "com.github.hayasshi",
-  scalaVersion := "2.12.6",
+  scalaVersion := "2.12.7",
   version      := "0.1.0-SNAPSHOT",
   scalacOptions ++= Seq(
     "-feature",
