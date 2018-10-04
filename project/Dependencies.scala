@@ -5,7 +5,7 @@ object Dependencies {
   lazy val scalaTest = "org.scalatest" %% "scalatest" % "3.0.5"
 
   object Akka {
-    val version = "2.5.14"
+    val version = "2.5.17"
 
     lazy val actor   = "com.typesafe.akka" %% "akka-actor"   % version
     lazy val cluster = "com.typesafe.akka" %% "akka-cluster" % version
