@@ -11,6 +11,7 @@ object Dependencies {
     lazy val cluster = "com.typesafe.akka" %% "akka-cluster" % version
     lazy val ddata   = "com.typesafe.akka" %% "akka-distributed-data" % version
     lazy val clusterSharding = "com.typesafe.akka" %% "akka-cluster-sharding" % version
+    lazy val clusterMetrics  = "com.typesafe.akka" %% "akka-cluster-metrics"  % version
 
     lazy val testKit          = "com.typesafe.akka" %% "akka-testkit" % version
     lazy val multiNodeTestKit = "com.typesafe.akka" %% "akka-multi-node-testkit" % version

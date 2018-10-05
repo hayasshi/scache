@@ -40,6 +40,7 @@ lazy val core = (project in file("core"))
     libraryDependencies ++= Seq(
       Akka.actor,
       Akka.clusterSharding,
+      Akka.clusterMetrics,
       scalaTest % Test,
       Akka.testKit % Test,
       Akka.multiNodeTestKit % Test,
