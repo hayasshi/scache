@@ -31,9 +31,9 @@ lazy val root = (project in file("."))
   .settings(
     name := "scache",
   )
-  .aggregate(core)
+  .aggregate(`scache-core`)
 
-lazy val core = (project in file("core"))
+lazy val `scache-core` = (project in file("core"))
   .settings(coreSetting)
   .settings(
     name := "scache-core",
