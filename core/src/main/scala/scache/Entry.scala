@@ -14,8 +14,8 @@ sealed trait Entry {
 case object Empty extends Entry {
   val key: ByteString = ByteString.empty
   val value: ByteString = ByteString.empty
-  val timestamp: Instant = Instant.MIN
-  val expiredAt: Instant = Instant.MIN
+  val timestamp: Instant = Instant.ofEpochMilli(0)
+  val expiredAt: Instant = Instant.ofEpochMilli(0)
 }
 
 case class Content(

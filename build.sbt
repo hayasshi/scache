@@ -42,6 +42,7 @@ lazy val `scache-core` = (project in file("core"))
       Akka.clusterSharding,
       Akka.clusterMetrics,
       scalaTest % Test,
+      apacheCommonsIo % Test,
       Akka.testKit % Test,
       Akka.multiNodeTestKit % Test,
     )

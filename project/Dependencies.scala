@@ -4,6 +4,8 @@ object Dependencies {
 
   lazy val scalaTest = "org.scalatest" %% "scalatest" % "3.0.5"
 
+  lazy val apacheCommonsIo = "commons-io" % "commons-io" % "2.6"
+
   object Akka {
     val version = "2.5.17"
 
